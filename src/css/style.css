@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+.animation_text h1{
+  font-family: "Architects Daughter", sans-serif;
+  color: #373150;
+  font-size: 40px;
+  font-weight: 500
+}
+.animation_text h1 span{color:#56A274;}
+
+@media(max-width:768px){
+  .animation_text h1{font-size:30px}
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Architects Daughter', sans-serif;
+}
+.logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #56A274;
+    text-decoration: none;
+}
+.nav-link a{
+  color:rgb(105, 99, 99);
+  text-decoration: none;
+}
+.nav-link a:active{
+  color:black;
+}
+.nav-link a:hover{
+  color: black;
+  transition: 0.5s 0.2s;
+}
+.link a{
+  color: #56A274;
+  font-size: 1.3rem;
+}
+.link a:hover{
+  color: white;
+  background-color: #56A274;
+  border-radius: 0.5rem;
+  transition: 0.5s 0.5s ;
+  font-size: 1.2rem;
+  padding: 0.25rem 0.5rem;
+  
+}
+.nav-item:hover{
+   color: black;
+   transition: 0.5s unset all; 
+   font-weight: bold;
+}
+.icon a{
+    color:#56A274;
+    font-size: 1.9rem;
+}
+.icon a:hover{
+    color: black;
+    transition: 0.5s 0.2s;
+}
+.img{
+    width: 25rem;
+    height: 25rem;
+    margin-top: 0.5rem;
+}
+@media(max-width:768px){
+    .img{
+      width: 15rem;
+      height: 15rem;
+      margin-top: 3rem;
+    }
+}
+.projectimage{
+   width: 20rem;
+  height: 20rem;
+}
+@media(max-width:768px){
+    .projectimage{
+      width: 10rem;
+      height: 10rem;
+    }
+}
