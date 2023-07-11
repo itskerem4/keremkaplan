@@ -16,23 +16,6 @@
     box-sizing: border-box;
     font-family: 'Architects Daughter', sans-serif;
 }
-.logo a{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #56A274;
-    text-decoration: none;
-}
-.nav-link a{
-  color:rgb(105, 99, 99);
-  text-decoration: none;
-}
-.nav-link a:active{
-  color:black;
-}
-.nav-link a:hover{
-  color: black;
-  transition: 0.5s 0.2s;
-}
 .link a{
   color: #56A274;
   font-size: 1.3rem;
